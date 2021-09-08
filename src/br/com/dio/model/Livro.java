@@ -2,14 +2,14 @@ package br.com.dio.model;
 
 public class Livro {
     private String nome;
-    private Integer npaguinas;
+    private Integer npaginas;
 
     public Livro() {
     }
 
-    public Livro(String nome, Integer npaguinas) {
+    public Livro(String nome, Integer npaginas) {
         this.nome = nome;
-        this.npaguinas = npaguinas;
+        this.npaginas = npaginas;
     }
 
     public String getNome() {
@@ -21,18 +21,18 @@ public class Livro {
     }
 
     public Integer getNpaguinas() {
-        return npaguinas;
+        return npaginas;
     }
 
-    public void setNpaguinas(Integer npaguinas) {
-        this.npaguinas = npaguinas;
+    public void setNpaguinas(Integer npaginas) {
+        this.npaginas = npaginas;
     }
 
     @Override
     public String toString() {
-        return "Livro{" +
-                "nome='" + nome + '\'' +
-                ", npaguinas=" + npaguinas +
-                '}';
+        return "Livro - " +
+                "Titulo: '" + nome + '\'' +
+                ", Nº de paginas: " + npaginas +
+                '.';
     }
 }
