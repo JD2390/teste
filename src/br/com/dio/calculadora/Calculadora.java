@@ -20,6 +20,7 @@ public class Calculadora {
         System.out.println("Subtração dos números: "+ sub);
         System.out.println("Multiplicação dos números: "+ mul);
         System.out.println("Divisão dos números: "+ div);
+        scan.close();
     }
 
     public static float somar(float a , float b){
